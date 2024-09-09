@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ad-container {
+  border: 1px solid rgba(16, 49, 89, 0.15);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.ad-container h6 {
+  color: #292a2c;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.ad-container p {
+  font-weight: bold;
+}
+
+.ad-container ul {
+  margin-top: 8px;
+  color: #4b5563;
+  list-style-type: decimal;
+  margin-left: 28px;
+}
+
+.ad-container a {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid rgba(16, 49, 89, 0.15);
+  border-radius: 8px;
+  margin-top: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.ad-container a:hover {
+  background-color: #f3f4f6;
+}
