@@ -13,10 +13,16 @@
       }
 
       .ad-container h6 {
+        margin: 0;
+        padding: 0;
         color: #292a2c;
         font-size: 16px;
         font-weight: 600;
         line-height: 1.5;
+      }
+
+      .ad-container a {
+        text-decoration: none;
       }
 
       .ad-container p {
@@ -30,7 +36,7 @@
         margin-left: 28px;
       }
 
-      .ad-container a {
+      .ad-container-btn {
         display: inline-block;
         padding: 8px 12px;
         border: 1px solid rgba(16, 49, 89, 0.15);
@@ -47,13 +53,27 @@
   </head>
   <body>
     <!-- Ad container -->
-    <div id="ad-container"></div>
-    <h1>Hello world</h1>
-    <!-- Script reference -->
-    <!-- <script type="module" src="newsletter-ad.js"></script>
-    <script>
-      // Call the function to render the ad
-      renderNewsletterAdCard();
-    </script> -->
+    <div class="ad-container">
+      <a href="https://codevertiser.substack.com/" target="_blank">
+        <h6 class="ad-container-title">
+          Become a better JavaScript developer by practicing only 10–20 minutes
+          a week
+        </h6>
+      </a>
+      <div>
+        <p>Every Tuesday, you'll receive:</p>
+        <ul>
+          <li>A JavaScript problem-solving challenge</li>
+          <li>Three conceptual JavaScript MCQs</li>
+        </ul>
+      </div>
+      <a
+        href="https://codevertiser.substack.com/"
+        target="_blank"
+        class="ad-container-btn"
+      >
+        Subscribe to JS Bytes
+      </a>
+    </div>
   </body>
 </html>
